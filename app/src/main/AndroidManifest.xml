@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bargav.knowyourteacher">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="com.example.bargav.knowyourteacher.MainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            >
+        </activity>
+        <activity android:name=".login_activity">
+            <intent-filter>
+                <action android:name="com.example.bargav.knowyourteacher.login_activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            >
+        </activity>
+        <activity android:name=".register_gender">
+            <intent-filter>
+                <action android:name="com.example.bargav.knowyourteacher.register_gender" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".details_registration">
+            <intent-filter>
+                <action android:name="com.example.bargav.knowyourteacher.details_registration" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".teacher_details"></activity>
+    </application>
+
+</manifest>

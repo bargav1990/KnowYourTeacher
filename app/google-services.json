@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "436468548299",
+    "firebase_url": "https://know-your-teacher-9d363.firebaseio.com",
+    "project_id": "know-your-teacher-9d363",
+    "storage_bucket": "know-your-teacher-9d363.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436468548299:android:3305bb6ecbf7b1f2",
+        "android_client_info": {
+          "package_name": "com.example.bargav.knowyourteacher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "436468548299-sbla1i415erhrnv0evlb4ls4j6fhrg3t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0aibI2v82YY_Hl4rmlJSFMKGrhq25NN8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
